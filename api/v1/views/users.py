@@ -7,7 +7,6 @@ from flask import abort, jsonify, request
 from models import storage, CNC
 
 
-
 @app_views.route('/users/', methods=['GET', 'POST'])
 def users_no_id(user_id=None):
     """
